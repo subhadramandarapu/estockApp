@@ -1,0 +1,37 @@
+{
+  "name": "stock_market_api_v1.0",
+  "version": "1.0.0",
+  "description": "Restful micro service application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start": "react-script start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "fse2_stock_market_api"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Seenivasan, Kannan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.1.1",
+    "node-fetch": "^3.0.0",
+    "react-scripts": "^5.0.1",
+    "request": "^2.88.2",
+    "requestify": "^0.2.5",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
